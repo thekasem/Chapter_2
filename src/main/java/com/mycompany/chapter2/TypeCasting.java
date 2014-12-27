@@ -11,8 +11,8 @@ import java.util.Scanner;
  */
 public class TypeCasting {
     public static void main(String[] args){
-      Scanner sc = new Scanner(System.in);
-      float input = sc.nextFloat();
+      Scanner scanner = new Scanner(System.in);
+      float input = scanner.nextFloat();
       if(input -(int)input == 0){
       System.out.println("number : " +(int)input);
       }else{
